@@ -3,7 +3,7 @@ variable "scalr_aws_secret_key" {}
 variable "scalr_aws_access_key" {}
 
 variable "region" {
-  default = "us-east-1"
+description = "Region"
 }
 
 variable "ami" {
@@ -11,7 +11,7 @@ variable "ami" {
 }
 
 variable "instance_type" {
-  default = "t2.nano"
+description = "Instance Type"
 }
 
 variable "subnet" {
@@ -28,4 +28,5 @@ description = "AWS Key"
 }
 
 variable "vpc_id" {
+description = "VPC"
 }
