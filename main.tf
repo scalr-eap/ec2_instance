@@ -7,7 +7,7 @@ provider "aws" {
 data "null_data_source" "values" {
   inputs = {
     vpc_id = "${var.vpc_id}"
-    }
+  }
 }
 
 resource "aws_instance" "scalr" {

@@ -3,7 +3,7 @@ variable "scalr_aws_secret_key" {}
 variable "scalr_aws_access_key" {}
 
 variable "region" {
-description = "Region"
+  description = "Region"
 }
 
 variable "ami" {
@@ -11,22 +11,22 @@ variable "ami" {
 }
 
 variable "instance_type" {
-description = "Instance Type"
+  description = "Instance Type"
 }
 
 variable "subnet" {
-description = "Subnet ID"
+  description = "Subnet ID"
 }
 
 variable "sg" {
-description = "AWS Secruity Group"
-type = list(string)
+  description = "AWS Secruity Group"
+  type        = list(string)
 }
 
 variable "key" {
-description = "AWS Key"
+  description = "AWS Key"
 }
 
 variable "vpc_id" {
-description = "VPC"
+  description = "VPC"
 }
