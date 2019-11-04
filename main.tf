@@ -11,7 +11,3 @@ resource "aws_instance" "scalr" {
   vpc_security_group_ids = var.sg
   key_name               = var.key
 }
-
-data "aws_vpc" "selected" {
-  id = "${var.vpc_id}"
-}
