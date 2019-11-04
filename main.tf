@@ -6,7 +6,7 @@ provider "aws" {
 
 data "null_data_source" "values" {
   inputs = {
-    vpc_id = "${vpc_id}"
+    vpc_id = "${var.vpc_id}"
     }
 }
 
