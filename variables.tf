@@ -26,3 +26,6 @@ type = list(string)
 variable "key" {
 description = "AWS Key"
 }
+
+variable "vpc_id" {
+}
