@@ -20,7 +20,7 @@ variable "subnet" {
   conditions = {
   cloud = "ec2",
   cloud.location = "${var.region}",
-  cloud.network = "${var.network}"
+  cloud.network = "${var.vpc}"
   }
 }
 
