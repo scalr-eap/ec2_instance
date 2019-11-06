@@ -6,10 +6,6 @@ variable "region" {
   description = "Region"
 }
 
-variable "ami" {
-  description = "AMI"
-}
-
 variable "instance_type" {
   description = "Instance Type"
 }
@@ -29,4 +25,8 @@ variable "key" {
 
 variable "vpc_id" {
 description = "VPC"
+}
+
+variable "ami" {
+  description = "AMI"
 }

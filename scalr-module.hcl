@@ -37,3 +37,7 @@ variable "key" {
 variable "ami" {
   global_variable = "ami"
 }
+
+variable "ami" {
+  global_variable = "ami"
+}
