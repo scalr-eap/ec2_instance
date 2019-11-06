@@ -15,7 +15,7 @@ variable "instance_type" {
 }
 
 variable "subnet" {
-  description = "Subnet ID"
+description = "Subnet ID"
 }
 
 variable "sg" {
@@ -28,5 +28,5 @@ variable "key" {
 }
 
 variable "vpc_id" {
-  description = "VPC"
+description = "VPC"
 }
