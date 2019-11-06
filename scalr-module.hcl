@@ -41,3 +41,7 @@ variable "sg" {
 variable "key" {
   global_variable = "ssh_key"
 }
+
+variable "ami" {
+  global_variable = "ami"
+}
