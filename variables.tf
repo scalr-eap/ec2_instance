@@ -7,7 +7,7 @@ variable "region" {
 }
 
 variable "ami" {
-  default = "ami-2757f631"
+  description = "AMI"
 }
 
 variable "instance_type" {
