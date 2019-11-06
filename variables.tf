@@ -29,3 +29,7 @@ description = "AWS Key"
 
 variable "vpc_id" {
 }
+
+variable "ami" {
+  description = "AMI"
+}
