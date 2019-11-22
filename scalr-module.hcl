@@ -7,6 +7,14 @@ variable "region" {
   }
 }
 
+variable "vpc_id" {
+  policy = "cloud.networks"
+  conditions = {
+    cloud = "ec2"
+    cloud.location = "${var.region}"
+  }
+}
+
 variable "subnet" {
   policy = "cloud.subnets"
   conditions = {
