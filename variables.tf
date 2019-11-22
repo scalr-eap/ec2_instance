@@ -23,9 +23,9 @@ variable "key" {
   description = "AWS Key"
 }
 
-variable "vpc_id" {
-description = "VPC"
-}
+#variable "vpc_id" {
+#description = "VPC"
+#}
 
 variable "ami" {
   description = "AMI"
