@@ -10,6 +10,10 @@ variable "instance_type" {
   description = "Instance Type"
 }
 
+variable "instance_count" {
+  description = "Number of instances to deploy"
+}
+
 variable "subnet" {
 description = "Subnet ID"
 }
