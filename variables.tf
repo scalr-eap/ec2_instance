@@ -21,7 +21,7 @@ variable "sg" {
 }
 
 variable "key" {
-  description = "AWS Key"
+  description = "AWS Key to add to the instance"
 }
 
 variable "vpc_id" {
